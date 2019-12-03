@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,16 +7,51 @@
 <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
 <title>CodePen - 2001-1</title>
 <style>
-  h2{
-  color:black;
-  background:#FFA000;
-  font-size:20pAx;
+  div{
+  background:#FFA500;
+}
+
+h2{
+  font-size:30px;
+}
+
+#winterlist{
+  font-size:18px;
+}
+
+#winterheader{
+  font-size:24px;
+  border-style:dashed;
+}
+
+#falllist{
+  font-size:18px;
+}
+
+#fallheader{
+  font-size:24px;
+  border-style:dashed;
 }
 </style>
 </head>
 <body translate="no">
-<h2>My Class List</h2>
-<ul>
+<div>
+<h2>
+<font face="Bahnschrift">Alden's Class List</h2>
+<ol style="list-style-type:none;">
+<li id="fallheader">Fall</li>
+<ol line-height="1.6" id="falllist">
+<li>Digital Photography</li>
+<li>Chemistry</li>
+<li>Innovations</li>
+<li>Chinese 2</li>
+<li>English 10</li>
+<li>History 10</li>
+<li>Pre-Calc</li>
+<li>Music Production</li>
+</ol>
+<li id="winterheader">Winter</li>
+<ol line-height="1.6" id="winterlist">
 <li>Software Development</li>
 <li>Chemistry</li>
 <li>Comp Thinking</li>
@@ -24,5 +60,8 @@
 <li>History 10</li>
 <li>Pre-Calc</li>
 <li>TA</li>
+</ol>
+</ol>
+</div>
 </body>
 </html>
